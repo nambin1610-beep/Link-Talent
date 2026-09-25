@@ -9,3 +9,9 @@
   <a href="https://aistudio.google.com/apps">Start building</a>
 
 </div>
+
+
+## Competitor Ad Intelligence (CAI)
+
+- Thiết kế: [`docs/competitor-ad-intel/`](docs/competitor-ad-intel/README.md)
+- Triển khai MVP (Chrome Extension + Google Apps Script + Google Sheets): [`cai/`](cai/README.md)

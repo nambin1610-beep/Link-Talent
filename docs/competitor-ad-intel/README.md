@@ -4,6 +4,8 @@
 
 Phiên bản: v1.0 · Ngày: 2026-09-25 · Chủ sở hữu: Marketing Link Talent · Trạng thái: Draft để review
 
+> **Triển khai MVP:** mã nguồn và hướng dẫn cài đặt nằm ở [`cai/`](../../cai/README.md) (Extension + Apps Script + test). Dữ liệu khởi tạo phục vụ chiến dịch Headhunt.
+
 ---
 
 ## 0. Giả định (điền lại khi có thông tin chính thức)

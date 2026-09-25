@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>CAI – Review Queue</title>
+  <link rel="stylesheet" href="common.css">
+  <style>
+    body { padding: 10px 12px 80px; }
+    nav { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin: 8px 0; }
+    nav button { border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: none; padding: 6px 8px; }
+    nav button[aria-selected=true] { border-bottom-color: var(--accent); font-weight: 600; }
+    .toolbar { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+    .toolbar select { width: auto; }
+    .item header { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; font-size: 12px; }
+    .item .grid { display: grid; grid-template-columns: 96px 1fr; gap: 8px; margin-top: 6px; }
+    .item img.thumb { width: 96px; height: 96px; object-fit: cover; border-radius: 6px; background: var(--soft); }
+    .item .meta { font-size: 11px; color: var(--muted); word-break: break-all; margin-top: 6px; }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+    .footer { position: fixed; left: 0; right: 0; bottom: 0; background: var(--bg); border-top: 1px solid var(--line); padding: 8px 12px; display: flex; gap: 6px; align-items: center; }
+    .footer .grow { flex: 1; font-size: 12px; }
+    .drop { border: 2px dashed var(--line); border-radius: 8px; padding: 16px; text-align: center; }
+    .drop.over { border-color: var(--accent); background: var(--soft); }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    td, th { border-bottom: 1px solid var(--line); padding: 4px; text-align: left; vertical-align: top; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="row" style="justify-content:space-between">
+    <h1 style="flex:0 0 auto">CAI · Review Queue</h1>
+    <div style="flex:0 0 auto" class="muted"><span id="syncDot" class="dot UNCONFIGURED"></span><span id="syncText"></span></div>
+  </div>
+  <nav role="tablist">
+    <button role="tab" data-tab="queue" aria-selected="true">Hàng đợi <span id="qCount"></span></button>
+    <button role="tab" data-tab="trends" aria-selected="false">Trends</button>
+    <button role="tab" data-tab="launch" aria-selected="false">Launchpad</button>
+    <button role="tab" data-tab="history" aria-selected="false">Lịch sử</button>
+  </nav>
+
+  <section id="tab-queue">
+    <div class="toolbar">
+      <label style="margin:0"><input type="checkbox" id="selAll" style="width:auto"> Chọn tất cả</label>
+      <select id="filter" aria-label="Lọc">
+        <option value="">Tất cả</option>
+        <option value="READY">Sẵn sàng</option>
+        <option value="INCOMPLETE">Thiếu dữ liệu</option>
+        <option value="ERROR">Lỗi</option>
+        <option value="landing">Landing page</option>
+      </select>
+      <input id="bulkTag" placeholder="Tag cho mục đã chọn" style="flex:1">
+      <button id="btnBulkTag">Gắn tag</button>
+    </div>
+    <div id="list"></div>
+    <p id="empty" class="muted" hidden>Hàng đợi trống. Mở một thư viện quảng cáo, chọn quảng cáo trên trang rồi bấm "Thêm vào hàng đợi".</p>
+  </section>
+
+  <section id="tab-trends" hidden>
+    <div class="hint">Trên Google Trends, bấm nút <b>⬇</b> ở biểu đồ <i>Mức độ quan tâm theo thời gian</i> (multiTimeline.csv) và
+      <i>Truy vấn liên quan</i> (relatedQueries.csv). Kéo thả các file vào đây. Chỉ số Trends là tương đối 0–100, không phải lượng tìm kiếm.</div>
+    <div class="two">
+      <div><label for="tGeo">Thị trường (geo)</label><input id="tGeo" value="VN"></div>
+      <div><label for="tTime">Khoảng thời gian</label><input id="tTime" value="today 12-m"></div>
+      <div><label for="tBatch">Batch</label><input id="tBatch" placeholder="B1"></div>
+      <div><label for="tAnchor">Anchor keyword</label><input id="tAnchor" value="headhunter"></div>
+    </div>
+    <label for="tUrl">URL nguồn</label><input id="tUrl" placeholder="https://trends.google.com/trends/explore?...">
+    <label for="tRelKw">Related queries thuộc từ khóa</label><input id="tRelKw" placeholder="dịch vụ headhunt">
+    <div class="drop" id="drop" tabindex="0">Kéo thả CSV vào đây hoặc <label for="tFile" style="display:inline;color:var(--accent);cursor:pointer">chọn file</label>
+      <input type="file" id="tFile" accept=".csv,text/csv" multiple hidden></div>
+    <div id="tPreview"></div>
+    <button class="primary" id="btnTrendsSend" disabled>Gửi lên Google Sheets</button>
+    <p id="tMsg" class="muted"></p>
+  </section>
+
+  <section id="tab-launch" hidden>
+    <div class="toolbar">
+      <select id="lFilter" aria-label="Lọc nền tảng">
+        <option value="">Mọi nền tảng</option>
+        <option value="META">Meta</option>
+        <option value="LINKEDIN">LinkedIn</option>
+        <option value="GOOGLE_ATC">Google Ads Transparency</option>
+        <option value="GOOGLE_TRENDS">Google Trends</option>
+      </select>
+      <button id="btnRefreshMeta">↻ Đồng bộ danh mục</button>
+    </div>
+    <p class="muted">Mở lần lượt, tối đa 5 tab mỗi lần. Extension không tự cuộn hay tự thu thập — bạn tự xem và chọn quảng cáo.</p>
+    <table><thead><tr><th>Đối thủ / truy vấn</th><th>Nền tảng</th><th>Mở gần nhất</th><th></th></tr></thead><tbody id="lBody"></tbody></table>
+  </section>
+
+  <section id="tab-history" hidden>
+    <table><thead><tr><th>Thời gian</th><th>Hành động</th><th>Kết quả</th></tr></thead><tbody id="hBody"></tbody></table>
+  </section>
+
+  <div class="footer" id="footer">
+    <span class="grow" id="footText"></span>
+    <button id="btnRemove">Xóa khỏi hàng đợi</button>
+    <button class="primary" id="btnSend">Gửi ▶</button>
+  </div>
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>CAI</title>
+  <link rel="stylesheet" href="common.css">
+  <style>
+    body { width: 360px; padding: 12px; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+    .src { font-weight: 600; }
+    .counts span { margin-right: 8px; }
+    .actions { display: grid; gap: 6px; margin-top: 10px; }
+    .foot { margin-top: 10px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAI · Competitor Ad Intel</h1>
+    <div class="row" style="flex:0">
+      <button id="btnOptions" title="Cài đặt" aria-label="Cài đặt">⚙</button>
+      <button id="btnPanel" title="Mở Review Queue" aria-label="Mở Review Queue">⤢</button>
+    </div>
+  </header>
+  <div id="syncLine" class="muted"><span class="dot UNCONFIGURED"></span><span id="syncText">Đang kiểm tra…</span></div>
+
+  <section id="pageBox" class="card">
+    <div class="src" id="srcLabel">…</div>
+    <div class="counts muted" id="counts"></div>
+    <div id="blocked" class="err" hidden></div>
+    <div id="trendsHint" class="hint" hidden>
+      Google Trends: bấm nút <b>⬇</b> (Export CSV) trên biểu đồ "Mức độ quan tâm theo thời gian" và "Truy vấn liên quan",
+      sau đó mở <b>Review Queue → Trends</b> để import.
+    </div>
+  </section>
+
+  <section id="ctxBox">
+    <div class="row">
+      <div><label for="competitor">Đối thủ (mặc định)</label><select id="competitor"></select></div>
+      <div style="flex:0 0 80px"><label for="market">Thị trường</label><input id="market" value="VN"></div>
+    </div>
+    <div class="row">
+      <div><label for="product">Sản phẩm</label><input id="product" placeholder="Headhunt / Executive search"></div>
+      <div><label for="campaign">Chiến dịch</label><input id="campaign" placeholder="Q4-2026 Headhunt"></div>
+    </div>
+    <label for="audience">Phía khách hàng</label>
+    <select id="audience">
+      <option value="AUTO">Tự nhận diện</option>
+      <option value="EMPLOYER">Nhà tuyển dụng (B2B)</option>
+      <option value="CANDIDATE">Ứng viên (B2C)</option>
+    </select>
+    <label for="tags">Tag (phân tách dấu phẩy)</label>
+    <input id="tags" list="tagList" placeholder="headhunt, c-level">
+    <datalist id="tagList"></datalist>
+    <label for="notes">Ghi chú</label>
+    <textarea id="notes" rows="2"></textarea>
+    <label>Đánh giá "đáng học hỏi"</label>
+    <div class="stars" id="stars" role="radiogroup" aria-label="Đánh giá"></div>
+  </section>
+
+  <div class="actions">
+    <button class="primary" id="btnSaveSelected">💾 Lưu quảng cáo đã chọn</button>
+    <button id="btnSaveAll">📥 Lưu tất cả đang hiển thị</button>
+    <button id="btnLanding">🔗 Lưu trang này làm Landing Page</button>
+    <button class="accent" id="btnOpenQueue">🔎 Mở Review Queue</button>
+  </div>
+  <div class="foot muted" id="queueLine"></div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

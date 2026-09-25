@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>CAI – Cài đặt</title>
+  <link rel="stylesheet" href="common.css">
+  <style>
+    body { max-width: 640px; margin: 24px auto; padding: 0 16px; }
+    .actions { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+    #result { margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <h1>CAI · Cài đặt kết nối Google Sheets</h1>
+  <p class="muted">Lấy Web App URL và secret từ Spreadsheet: menu <b>CAI → Tạo người dùng</b>, rồi <b>Deploy → Manage deployments</b>.
+    Secret chỉ lưu trên máy này (chrome.storage.local), không đồng bộ sang máy khác.</p>
+
+  <label for="endpoint">Apps Script Web App URL (kết thúc bằng /exec)</label>
+  <input id="endpoint" placeholder="https://script.google.com/macros/s/AKfy.../exec" autocomplete="off">
+  <div class="row">
+    <div><label for="userId">User ID</label><input id="userId" placeholder="u_linh" autocomplete="off"></div>
+    <div><label for="collector">Tên hiển thị</label><input id="collector" placeholder="Linh – Performance"></div>
+  </div>
+  <label for="secret">Secret</label>
+  <input id="secret" type="password" placeholder="••••••••" autocomplete="off">
+  <div class="row">
+    <div><label for="market">Thị trường mặc định</label><input id="market" value="VN"></div>
+    <div><label for="visibleLimit">Tối đa khi "Lưu tất cả đang hiển thị"</label><input id="visibleLimit" type="number" min="1" max="200" value="100"></div>
+  </div>
+
+  <div class="actions">
+    <button class="primary" id="btnSave">Lưu</button>
+    <button id="btnTest">Kiểm tra kết nối</button>
+    <button id="btnSync">Đồng bộ danh mục & chỉ mục</button>
+    <button id="btnClear">Xóa cache cục bộ</button>
+  </div>
+  <div id="result" class="hint" hidden></div>
+
+  <h2>Nguyên tắc sử dụng</h2>
+  <ul class="muted">
+    <li>Extension chỉ đọc quảng cáo công khai đang hiển thị trên tab bạn mở. Không tự cuộn, không tự mở trang, không vượt đăng nhập/CAPTCHA.</li>
+    <li>Mọi dữ liệu được gửi đi chỉ sau khi bạn bấm <b>Gửi</b> trong Review Queue.</li>
+    <li>Số lượng quảng cáo không phản ánh ngân sách hay hiệu quả của đối thủ.</li>
+  </ul>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

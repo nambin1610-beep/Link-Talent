@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "CAI – Competitor Ad Intel (Internal)",
+  "short_name": "CAI",
+  "description": "Thu thập bán tự động quảng cáo công khai của đối thủ (Meta, LinkedIn, Google Ads Transparency, Trends, landing page) vào Google Sheets.",
+  "version": "0.1.0",
+  "minimum_chrome_version": "116",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": {
+    "default_title": "CAI – Competitor Ad Intel",
+    "default_popup": "src/ui/popup.html",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png" }
+  },
+  "side_panel": { "default_path": "src/ui/sidepanel.html" },
+  "options_page": "src/ui/options.html",
+  "background": { "service_worker": "src/background/service-worker.js", "type": "module" },
+  "permissions": ["storage", "activeTab", "scripting", "sidePanel", "alarms", "contextMenus"],
+  "host_permissions": [
+    "https://www.facebook.com/ads/library/*",
+    "https://www.linkedin.com/ad-library/*",
+    "https://adstransparency.google.com/*",
+    "https://trends.google.com/*",
+    "https://script.google.com/*",
+    "https://script.googleusercontent.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/ads/library/*",
+        "https://www.linkedin.com/ad-library/*",
+        "https://adstransparency.google.com/*",
+        "https://trends.google.com/trends/*"
+      ],
+      "js": [
+        "src/content/core.js",
+        "src/content/overlay.js",
+        "src/content/adapters/meta.js",
+        "src/content/adapters/google-atc.js",
+        "src/content/adapters/linkedin.js",
+        "src/content/adapters/trends.js",
+        "src/content/main.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "commands": {
+    "toggle-select": { "suggested_key": { "default": "Alt+S" }, "description": "Chọn/bỏ chọn quảng cáo đang trỏ chuột" },
+    "open-panel": { "suggested_key": { "default": "Alt+Shift+C" }, "description": "Mở Review Queue" }
+  }
+}
