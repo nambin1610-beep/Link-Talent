@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-09-25T03:30:00+07:00",
+  "total_unique_urls_checked": 488,
+  "breakdown": {
+    "google_serp_unique_urls": 457,
+    "linkedin_profiles_in_serp": 260,
+    "linkedin_posts_in_serp": 100,
+    "facebook": 2,
+    "job_boards_and_other": 95,
+    "pages_opened_for_verification_via_apify_rag_web_browser": 31
+  },
+  "valid_candidates": 2,
+  "confirmed_open_to_work": 0,
+  "probable_open_to_work": 2,
+  "with_real_estate_experience": 0,
+  "with_public_email": 0,
+  "with_public_phone": 0,
+  "watchlist_unverified_high_fit": 12,
+  "watchlist_with_real_estate": 10,
+  "apify_runs": {
+    "google_search_scraper": "run TELEcTGE4T7uQkbmM, dataset 8TKS5Jq1UKaNE6cjf (25 queries x 3 pages)",
+    "rag_web_browser_datasets": [
+      "OuUf7Dmbhq0w8L5ft",
+      "W9oQEUAhbyz4fFx1d",
+      "UG2g49rf9GWjR2WDN",
+      "Xne9LogDiqpDpbCe9"
+    ]
+  }
+}

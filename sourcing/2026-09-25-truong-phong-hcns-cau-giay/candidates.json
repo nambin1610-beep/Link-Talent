@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "LT-HCNS-001",
+    "full_name": "Oanh Nguyen",
+    "current_or_latest_title": "HR & Admin Manager",
+    "current_or_latest_company": "Dinosys Corporation",
+    "location": "Hanoi, Hanoi, Vietnam",
+    "willing_to_work_in_hanoi": true,
+    "open_to_work_status": "probable",
+    "open_to_work_evidence": "Profile summary (Google snippet): \"An analytically minded HR professional who is available to start work at short notice.\"",
+    "open_to_work_evidence_date": "",
+    "open_to_work_source_url": "https://vn.linkedin.com/in/oanh-nguyen-488b23ba",
+    "years_in_hr_management": null,
+    "management_experience_evidence": "Current title HR & Admin Manager at Dinosys Corp. (per the search result)",
+    "recruitment_experience": "không có dữ liệu",
+    "real_estate_experience": "không có dữ liệu",
+    "hr_admin_scope": [
+      "HR",
+      "Admin (theo chức danh)"
+    ],
+    "team_management_experience": "không có dữ liệu",
+    "education": "không có dữ liệu",
+    "public_email": "",
+    "email_source_url": "",
+    "public_phone": "",
+    "phone_source_url": "",
+    "linkedin_url": "https://vn.linkedin.com/in/oanh-nguyen-488b23ba",
+    "other_profile_urls": [],
+    "fit_score": 40,
+    "fit_reasons": [
+      "Manager-level HR & Admin title (20)",
+      "Already in Hanoi",
+      "Undated readiness signal \"available to start work at short notice\" (8/20)",
+      "Overall HR + Admin scope based on title (12/15)"
+    ],
+    "missing_or_unverified_requirements": [
+      "Date of the job-seeking signal could not be verified (the summary may be old)",
+      "No data on recruitment / workforce-building experience",
+      "No data on real estate experience",
+      "No data on years in management",
+      "Full public profile could not be opened (LinkedIn requires sign-in; not bypassed)"
+    ],
+    "all_source_urls": [
+      "https://vn.linkedin.com/in/oanh-nguyen-488b23ba"
+    ],
+    "last_verified_at": "2026-09-25T03:30:00+07:00"
+  },
+  {
+    "candidate_id": "LT-HCNS-002",
+    "full_name": "Truong Vu",
+    "current_or_latest_title": "Chief People Officer (CHRO) | HR Director",
+    "current_or_latest_company": "Global Cross-Border E-Commerce & Retail Tech Platform (US Market)",
+    "location": "Hanoi Capital Region",
+    "willing_to_work_in_hanoi": true,
+    "open_to_work_status": "probable",
+    "open_to_work_evidence": "Google snippet of the profile: \"Looking for opportunities.\" (context unclear: could be the candidate's own post or an activity)",
+    "open_to_work_evidence_date": "",
+    "open_to_work_source_url": "https://vn.linkedin.com/in/truong-vu-78378194",
+    "years_in_hr_management": null,
+    "management_experience_evidence": "HR Director/CHRO; previously Head of HR (Global Tech Hub / Digital Transformation Center) at Transalliance (per snippet)",
+    "recruitment_experience": "không có dữ liệu",
+    "real_estate_experience": "không có dữ liệu",
+    "hr_admin_scope": [
+      "HR strategy (theo chức danh CHRO)"
+    ],
+    "team_management_experience": "không có dữ liệu",
+    "education": "không có dữ liệu",
+    "public_email": "",
+    "email_source_url": "",
+    "public_phone": "",
+    "phone_source_url": "",
+    "linkedin_url": "https://vn.linkedin.com/in/truong-vu-78378194",
+    "other_profile_urls": [],
+    "fit_score": 38,
+    "fit_reasons": [
+      "Director/Head of HR level (20)",
+      "In the Hanoi area",
+      "Signal \"Looking for opportunities\" not yet confirmed (8/20)",
+      "Title implies overall HR management (10/15)"
+    ],
+    "missing_or_unverified_requirements": [
+      "Date and context of \"Looking for opportunities\" not verified",
+      "Level is above Department Head (CHRO), expected salary may not match",
+      "No data on recruitment / real estate / Admin",
+      "The Apify fetch of the public profile failed (LinkedIn blocks it); only the Google snippet was used"
+    ],
+    "all_source_urls": [
+      "https://vn.linkedin.com/in/truong-vu-78378194"
+    ],
+    "last_verified_at": "2026-09-25T03:30:00+07:00"
+  }
+]
