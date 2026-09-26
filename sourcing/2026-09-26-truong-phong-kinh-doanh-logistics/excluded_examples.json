@@ -1,14 +1,42 @@
 [
   {
+    "name": "Hung Cuong (Marcus)",
+    "url": "https://www.linkedin.com/in/hung-cuong-marcus-a690a899/",
+    "reason": "Confirmed OTW (30/08/2026) but based in HCM, excluded per the Hanoi requirement"
+  },
+  {
+    "name": "Thu Ngan Nguyen",
+    "url": "https://www.linkedin.com/in/thu-ngan-nguyen-826934104/",
+    "reason": "Could not verify a Hanoi location (the company has offices in HCM/Hưng Yên/Hà Nội); add back if confirmed in Hanoi"
+  },
+  {
+    "name": "Number 1 / Nguyen Linh",
     "url": "https://www.linkedin.com/in/number1vn/",
-    "reason": "Profile has no real name ('Number 1') even though it is seeking a Leader/Manager role in logistics operations in Hanoi (DHL-VNPT)"
+    "reason": "Logistics operations (DHL-VNPT, VinFast), not sales; one profile has no real name"
   },
   {
+    "name": "Tuan Nguyen",
     "url": "https://www.linkedin.com/in/tuan-nguyen-8343b633a/",
-    "reason": "#opentowork in Hanoi but seeking Head of Operations in FMCG/retail, not logistics sales"
+    "reason": "Looking for Head of Operations in FMCG/retail"
   },
   {
-    "url": "https://www.linkedin.com/in/ha-nguyen-thu-b361a5b/",
-    "reason": "Recruiter (Talentnet) posting Sales Manager Forwarding jobs, not a candidate"
+    "name": "Lương Thu Phương",
+    "url": "https://www.linkedin.com/in/l%C6%B0%C6%A1ng-thu-ph%C6%B0%C6%A1ng-a761a6140/",
+    "reason": "OTW but sales admin/coordinator, not manager level"
+  },
+  {
+    "name": "Phuong Linh Nguyen",
+    "url": "https://www.linkedin.com/in/-linh/",
+    "reason": "OTW status has been turned off; e-commerce delivery (GHN)"
+  },
+  {
+    "name": "Minh Tâm Nguyễn",
+    "url": "https://www.linkedin.com/in/minh-t%C3%A2m-nguy%E1%BB%85n-91094b170/",
+    "reason": "Location not verified as Hanoi"
+  },
+  {
+    "name": "Ha Nguyen Thu / Hạ Phan Headhunt",
+    "url": "https://vn.linkedin.com/in/haphanhr",
+    "reason": "Recruiter/headhunter posting jobs, not a candidate"
   }
 ]

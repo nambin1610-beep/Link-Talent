@@ -8,10 +8,10 @@ Checked on: 26/09/2026. Sources: Apify `rag-web-browser` (opens public LinkedIn 
 | Metric | Value |
 |---|---|
 | Search queries / page fetches run | ~20 |
-| Valid candidates | 3 |
-| Confirmed Open to Work | 2 |
+| Valid candidates (Hanoi only) | 2 |
+| Confirmed Open to Work | 1 |
 | Probable | 1 |
-| In Hanoi | 1 (Minh Trang Ta) |
+| Hanoi watchlist | 9 |
 | With public email/phone | 0 |
 
 The JD's "Ưu tiên Nam" (male preferred) requirement is not used to filter or score candidates.

@@ -1,32 +1,92 @@
 [
   {
     "candidate_id": "LT-SALES-W01",
+    "full_name": "Hải Lê Doãn",
+    "current_or_latest_title": "Deputy General Manager; Sales Manager at ATAM International Group (since 08/2024)",
+    "current_or_latest_company": "NASCO Logistics",
+    "location": "Hà Nội",
+    "linkedin_url": "https://www.linkedin.com/in/hai-doan-le/",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "Develops sales strategy and leads the sales team; graduated from Foreign Trade University"
+  },
+  {
+    "candidate_id": "LT-SALES-W02",
     "full_name": "Tran Manh",
     "current_or_latest_title": "Area Sales Manager",
     "current_or_latest_company": "GEODIS",
-    "location": "Hanoi",
+    "location": "Hà Nội",
     "linkedin_url": "https://vn.linkedin.com/in/tranducmanh",
     "open_to_work_status": "unverified",
     "snippet_evidence": "Area Sales Manager at a global forwarder, Hanoi"
   },
   {
-    "candidate_id": "LT-SALES-W02",
+    "candidate_id": "LT-SALES-W03",
+    "full_name": "Alex Quan",
+    "current_or_latest_title": "Freight forwarding growth",
+    "current_or_latest_company": "(not stated)",
+    "location": "Hà Nội",
+    "linkedin_url": "https://vn.linkedin.com/in/alex-quan-a7b88979",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "Headline: \"Driving Growth in Freight Forwarding – Hanoi\""
+  },
+  {
+    "candidate_id": "LT-SALES-W04",
+    "full_name": "Phuong Lam Ha",
+    "current_or_latest_title": "Senior / Country Key Account Manager",
+    "current_or_latest_company": "DSV – Global Transport and Logistics",
+    "location": "Hà Nội",
+    "linkedin_url": "https://vn.linkedin.com/in/phuong-lam-ha-b77985164",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "Previously Sales Manager - Hanoi Branch at DSV; 9+ years; Foreign Trade University"
+  },
+  {
+    "candidate_id": "LT-SALES-W05",
     "full_name": "Mai Linh",
     "current_or_latest_title": "Business Development Director - Logistics Advisor",
     "current_or_latest_company": "(not stated)",
-    "location": "Hanoi / Hai Phong",
+    "location": "Hà Nội",
     "linkedin_url": "https://www.linkedin.com/in/mai-linh-64ab81124/",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "Logistics business development experience in Hai Phong and Hanoi"
+    "snippet_evidence": "Logistics BD in Hanoi and Hai Phong"
   },
   {
-    "candidate_id": "LT-SALES-W03",
-    "full_name": "Minh Tâm Nguyễn",
-    "current_or_latest_title": "Logistics & Freight Forwarding Sales Manager",
-    "current_or_latest_company": "Carry All Logistics",
-    "location": "Vietnam (not stated)",
-    "linkedin_url": "https://www.linkedin.com/in/minh-t%C3%A2m-nguy%E1%BB%85n-91094b170/",
+    "candidate_id": "LT-SALES-W06",
+    "full_name": "DUNG HOANG",
+    "current_or_latest_title": "Sales Assistant Manager - Forwarding Service",
+    "current_or_latest_company": "(not stated)",
+    "location": "Hà Nội",
+    "linkedin_url": "https://www.linkedin.com/in/dunghoang2431995/",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "Sales Manager for forwarding, Vietnam–US route, ocean freight"
+    "snippet_evidence": "Forwarding sales, many years' experience; TOPIK 6, TOEIC 890; Hanoi"
+  },
+  {
+    "candidate_id": "LT-SALES-W07",
+    "full_name": "NGUYEN Tien Luc",
+    "current_or_latest_title": "Logistics sales",
+    "current_or_latest_company": "3A International Logistics JSC (Hanoi forwarder)",
+    "location": "Hà Nội",
+    "linkedin_url": "https://www.linkedin.com/in/nguyen-tien-luc-a8b286b0/",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "Logistics sales, transport & operations"
+  },
+  {
+    "candidate_id": "LT-SALES-W08",
+    "full_name": "Quỳnh Nguyễn",
+    "current_or_latest_title": "(title not stated)",
+    "current_or_latest_company": "Taewoong Global Logistics Vietnam - Hanoi Branch",
+    "location": "Hà Nội",
+    "linkedin_url": "https://www.linkedin.com/in/qu%E1%BB%B3nh-nguy%E1%BB%85n-35b715172/",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "10+ years in logistics, strong at price negotiation; Vietnam University of Commerce"
+  },
+  {
+    "candidate_id": "LT-SALES-W09",
+    "full_name": "Nguyen Van Duc",
+    "current_or_latest_title": "(title not stated, hiring sales for the team)",
+    "current_or_latest_company": "Cargonet Logistics Vietnam (Cầu Giấy)",
+    "location": "Hà Nội",
+    "linkedin_url": "https://www.linkedin.com/in/nguyen-van-duc-227521161/",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "Hiring sales for a forwarder in Cầu Giấy, likely at team-lead level"
   }
 ]
