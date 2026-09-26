@@ -1,0 +1,112 @@
+[
+  {
+    "candidate_id": "LT-SALES-001",
+    "full_name": "Hung Cuong (Marcus)",
+    "current_or_latest_title": "Country Director (ended 08/2026)",
+    "current_or_latest_company": "Vietnam Transit",
+    "location": "TP.HCM (Vietnam Transit office: Pham Ngoc Thach St)",
+    "willing_to_work_in_hanoi": null,
+    "open_to_work_status": "confirmed",
+    "open_to_work_evidence": "\"As my time with Vietnam Transit officially concludes at the end of August... I am actively looking for my next executive or leadership role across port management, shipping lines, logistics expansion...\"",
+    "open_to_work_evidence_date": "2026-08-30",
+    "open_to_work_source_url": "https://www.linkedin.com/posts/hung-cuong-marcus-a690a899_taking-on-the-country-director-role-at-vietnam-activity-7499900865345089537-DC8E",
+    "management_experience": "Country Director since 03/2025; grew the team from under 20 to 28 people",
+    "logistics_forwarding_experience": "Liner shipping + freight forwarding + logistics",
+    "sea_export_experience": "Liner shipping (sea); no data on Sea export sales specifically",
+    "team_building_experience": "Yes: grew the team 20→28 within 18 months",
+    "linkedin_url": "https://www.linkedin.com/in/hung-cuong-marcus-a690a899/",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 85,
+    "fit_reasons": [
+      "Confirmed OTW, posted 30/08/2026 (20)",
+      "Country Director level (20)",
+      "Liner + forwarding (20)",
+      "Sea (liner), sea export not specified (10/15)",
+      "Built a new team (15)",
+      "Not in Hanoi (0/10)"
+    ],
+    "missing_or_unverified_requirements": [
+      "Based in HCM; no evidence of willingness to work in Hanoi",
+      "Director level: may exceed the 25-30M salary band and a Sales Manager role at a 30-person company",
+      "Looking for executive/leadership roles, not necessarily Sales Manager"
+    ],
+    "all_source_urls": [
+      "https://www.linkedin.com/posts/hung-cuong-marcus-a690a899_taking-on-the-country-director-role-at-vietnam-activity-7499900865345089537-DC8E",
+      "https://www.linkedin.com/in/hung-cuong-marcus-a690a899/"
+    ],
+    "last_verified_at": "2026-09-26T15:30:00+07:00"
+  },
+  {
+    "candidate_id": "LT-SALES-002",
+    "full_name": "Minh Trang Ta",
+    "current_or_latest_title": "Head of Strategic Accounts",
+    "current_or_latest_company": "Vietnam Post Logistics (previously led the Enterprise Customer Division at Viettel Post)",
+    "location": "Hanoi Capital Region",
+    "willing_to_work_in_hanoi": true,
+    "open_to_work_status": "confirmed",
+    "open_to_work_evidence": "LinkedIn profile shows #OPENTOWORK (per the indexed profile summary)",
+    "open_to_work_evidence_date": "",
+    "open_to_work_source_url": "https://vn.linkedin.com/in/minhtrang-ta/en",
+    "management_experience": "Head of Strategic Accounts; led the Enterprise Customer Division at Viettel Post",
+    "logistics_forwarding_experience": "B2B/enterprise logistics (postal & express logistics); no data on forwarding",
+    "sea_export_experience": "không có dữ liệu",
+    "team_building_experience": "Led a customer division (team size not stated)",
+    "linkedin_url": "https://www.linkedin.com/in/minhtrang-ta/",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 70,
+    "fit_reasons": [
+      "#OPENTOWORK on the profile, date unknown (15/20)",
+      "Head / division leader (20)",
+      "B2B enterprise logistics (15/20)",
+      "Hanoi (10)",
+      "Managed a division (10/15)"
+    ],
+    "missing_or_unverified_requirements": [
+      "Date the OTW status was turned on is unknown",
+      "No data on forwarding / Sea export",
+      "Education: MSc Supply Chain (Nottingham), outside the preferred majors but related"
+    ],
+    "all_source_urls": [
+      "https://www.linkedin.com/in/minhtrang-ta/",
+      "https://vn.linkedin.com/in/minhtrang-ta/en"
+    ],
+    "last_verified_at": "2026-09-26T15:30:00+07:00"
+  },
+  {
+    "candidate_id": "LT-SALES-003",
+    "full_name": "Thu Ngan Nguyen",
+    "current_or_latest_title": "Sales Logistics Manager",
+    "current_or_latest_company": "SEBANG VINA CO., LTD",
+    "location": "Not specified (company has offices in HCM, Hung Yen, Ha Noi)",
+    "willing_to_work_in_hanoi": null,
+    "open_to_work_status": "probable",
+    "open_to_work_evidence": "Search engine index of the LinkedIn profile says the person is open to work; the original wording could not be opened for verification",
+    "open_to_work_evidence_date": "",
+    "open_to_work_source_url": "https://www.linkedin.com/in/thu-ngan-nguyen-826934104/",
+    "management_experience": "Sales Logistics Manager: builds sales strategy, negotiates contracts/pricing",
+    "logistics_forwarding_experience": "Yes: logistics company (Korean-invested)",
+    "sea_export_experience": "không có dữ liệu",
+    "team_building_experience": "không có dữ liệu",
+    "linkedin_url": "https://www.linkedin.com/in/thu-ngan-nguyen-826934104/",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 48,
+    "fit_reasons": [
+      "Sales Logistics Manager (20)",
+      "Logistics B2B (20)",
+      "Unverified OTW signal (8/20)"
+    ],
+    "missing_or_unverified_requirements": [
+      "OTW not verified from the original source",
+      "Location unknown",
+      "No data on Sea export / team management",
+      "The company email/phone found are not a personal public contact from the candidate, so they are left blank"
+    ],
+    "all_source_urls": [
+      "https://www.linkedin.com/in/thu-ngan-nguyen-826934104/"
+    ],
+    "last_verified_at": "2026-09-26T15:30:00+07:00"
+  }
+]

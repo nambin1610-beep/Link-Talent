@@ -1,0 +1,32 @@
+[
+  {
+    "candidate_id": "LT-SALES-W01",
+    "full_name": "Tran Manh",
+    "current_or_latest_title": "Area Sales Manager",
+    "current_or_latest_company": "GEODIS",
+    "location": "Hanoi",
+    "linkedin_url": "https://vn.linkedin.com/in/tranducmanh",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "Area Sales Manager at a global forwarder, Hanoi"
+  },
+  {
+    "candidate_id": "LT-SALES-W02",
+    "full_name": "Mai Linh",
+    "current_or_latest_title": "Business Development Director - Logistics Advisor",
+    "current_or_latest_company": "(not stated)",
+    "location": "Hanoi / Hai Phong",
+    "linkedin_url": "https://www.linkedin.com/in/mai-linh-64ab81124/",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "Logistics business development experience in Hai Phong and Hanoi"
+  },
+  {
+    "candidate_id": "LT-SALES-W03",
+    "full_name": "Minh Tâm Nguyễn",
+    "current_or_latest_title": "Logistics & Freight Forwarding Sales Manager",
+    "current_or_latest_company": "Carry All Logistics",
+    "location": "Vietnam (not stated)",
+    "linkedin_url": "https://www.linkedin.com/in/minh-t%C3%A2m-nguy%E1%BB%85n-91094b170/",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "Sales Manager for forwarding, Vietnam–US route, ocean freight"
+  }
+]
