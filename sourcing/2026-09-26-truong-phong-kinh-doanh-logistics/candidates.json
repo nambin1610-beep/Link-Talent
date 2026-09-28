@@ -51,5 +51,61 @@
       "https://www.linkedin.com/in/thoanguyenthikim/"
     ],
     "last_verified_at": "2026-09-26T16:30:00+07:00"
+  },
+  {
+    "candidate_id": "LT-SALES-003",
+    "full_name": "Quynh NB",
+    "current_or_latest_title": "Regional Sales Manager (seeking an RSM or equivalent role)",
+    "current_or_latest_company": "Ninja Van (~7 years) + FMCG (3 years)",
+    "location": "Hà Nội",
+    "willing_to_work_in_hanoi": true,
+    "open_to_work_status": "probable",
+    "open_to_work_evidence": "Own post: \"I'm currently looking for a new development opportunity... I'd like an RSM or equivalent role in Logistics, FMCG... 💚 Work location in Hà Nội #Opentowork\"",
+    "open_to_work_evidence_date": "2025-04-04",
+    "open_to_work_source_url": "https://vn.linkedin.com/posts/quynh-nb-729bb3234_opentowork-activity-7313843513995972608-gcxd",
+    "logistics_forwarding_experience": "Sales management in express/e-commerce logistics (Ninja Van)",
+    "sea_export_experience": "không có dữ liệu",
+    "linkedin_url": "https://vn.linkedin.com/in/quynh-nb-729bb3234",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 55,
+    "missing_or_unverified_requirements": [
+      "Signal posted 04/2025 (~18 months ago): need to re-check whether still looking",
+      "Express delivery logistics, not forwarding/Sea export",
+      "Profile URL inferred from the post URL"
+    ],
+    "all_source_urls": [
+      "https://vn.linkedin.com/in/quynh-nb-729bb3234",
+      "https://vn.linkedin.com/posts/quynh-nb-729bb3234_opentowork-activity-7313843513995972608-gcxd"
+    ],
+    "last_verified_at": "2026-09-28T14:30:00+07:00"
+  },
+  {
+    "candidate_id": "LT-SALES-004",
+    "full_name": "HUE BUI",
+    "current_or_latest_title": "Branch Manager / Sales Manager / Assistant Manager / CS & OP team leader",
+    "current_or_latest_company": "KN CARGO Logistics Co., Ltd",
+    "location": "Hanoi Capital Region",
+    "willing_to_work_in_hanoi": true,
+    "open_to_work_status": "probable",
+    "open_to_work_evidence": "Profile summary (Google snippet): \"With quite 12 years' experience in logistics company, I'm looking forward to working...\", wording suggests looking for a new role but not explicit",
+    "open_to_work_evidence_date": "",
+    "open_to_work_source_url": "https://vn.linkedin.com/in/hue-bui-120a65295",
+    "logistics_forwarding_experience": "12 years at a logistics company (Branch Manager, Sales Manager, CS/OP team lead)",
+    "sea_export_experience": "không có dữ liệu",
+    "linkedin_url": "https://vn.linkedin.com/in/hue-bui-120a65295",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 58,
+    "missing_or_unverified_requirements": [
+      "OTW signal only from a snippet; LinkedIn blocked opening the full profile",
+      "Date unknown",
+      "No data on Sea export"
+    ],
+    "all_source_urls": [
+      "https://vn.linkedin.com/in/hue-bui-120a65295",
+      "https://vn.linkedin.com/in/hue-bui-120a65295"
+    ],
+    "last_verified_at": "2026-09-28T14:30:00+07:00"
   }
 ]
