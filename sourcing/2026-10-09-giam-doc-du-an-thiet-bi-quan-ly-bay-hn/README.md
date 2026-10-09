@@ -4,8 +4,8 @@ Ngày kiểm tra: 09/10/2026. Nguồn: Apify `harvestapi/linkedin-profile-search
 
 Lưu ý: gói free của harvestapi đã hết lượt chạy ("free user run limit reached") giữa phiên, nên phần còn lại được tìm qua Google.
 
-- Ứng viên chính (có tín hiệu tìm việc): 3
-- Danh sách theo dõi (đúng ngành, chưa có tín hiệu tìm việc): 7
+- Ứng viên chính (có tín hiệu tìm việc): 4
+- Danh sách theo dõi: 13 (5 cấp Director, 8 cấp Manager để tham khảo)
 - Đã loại: 3
 
 | Mã | Họ tên | Vị trí | OTW | Điểm |
@@ -13,3 +13,4 @@ Lưu ý: gói free của harvestapi đã hết lượt chạy ("free user run li
 | QLB-001 | Toan Vu Manh | Managing Director; Account Manager (aviation), M8group; TAESCO | confirmed | 68 |
 | QLB-002 | Duc M. Ngo | Business Development (Project Manager), ASIM Group | confirmed | 62 |
 | QLB-003 | Xuan Truong Nguyen | Aviation Professional, VATM – Trung tâm Huấn luyện Quản lý bay | confirmed | 52 |
+| QLB-004 | Nguyen The Anh | Sales Director, VIET UY JSC | probable | 55 |

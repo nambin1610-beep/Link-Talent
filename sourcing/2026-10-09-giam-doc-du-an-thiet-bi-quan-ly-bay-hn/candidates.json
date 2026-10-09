@@ -2,8 +2,8 @@
   {
     "candidate_id": "QLB-001",
     "full_name": "Toan Vu Manh",
-    "current_or_latest_title": "Managing Director; Account Manager (aviation)",
-    "current_or_latest_company": "M8group; TAESCO",
+    "current_or_latest_title": "Managing Director (M8group); nguyên VP Sales & Marketing SIB Group; nguyên GM Kỹ thuật An toàn Chất lượng Bamboo Airways",
+    "current_or_latest_company": "M8group; TAESCO (Account Manager mảng hàng không)",
     "location": "Hanoi Capital Region",
     "open_to_work_status": "confirmed",
     "open_to_work_evidence": "openToWork=true trên hồ sơ LinkedIn (harvestapi Full)",
@@ -26,7 +26,7 @@
   {
     "candidate_id": "QLB-002",
     "full_name": "Duc M. Ngo",
-    "current_or_latest_title": "Business Development (Project Manager)",
+    "current_or_latest_title": "BD Project Manager; nguyên Giám đốc Khối Kinh doanh PCC (2017–2022)",
     "current_or_latest_company": "ASIM Group",
     "location": "Hanoi Capital Region",
     "open_to_work_status": "confirmed",
@@ -63,6 +63,7 @@
     "public_phone": "",
     "fit_score": 52,
     "missing_or_unverified_requirements": [
+      "Cấp bậc chưa rõ – có thể chưa đạt cấp Giám đốc",
       "Chưa thấy kinh nghiệm kinh doanh/đấu thầu",
       "Chức danh và số năm kinh nghiệm chưa rõ",
       "Ngày tín hiệu không rõ"
@@ -71,5 +72,29 @@
       "https://vn.linkedin.com/in/xuan-truong-nguyen-8998ab186"
     ],
     "last_verified_at": "2026-10-09T14:30:00+07:00"
+  },
+  {
+    "candidate_id": "QLB-004",
+    "full_name": "Nguyen The Anh",
+    "current_or_latest_title": "Sales Director",
+    "current_or_latest_company": "VIET UY JSC",
+    "location": "Hanoi Capital Region",
+    "open_to_work_status": "probable",
+    "open_to_work_evidence": "Headline LinkedIn: \"Willing to take new challanges\"",
+    "open_to_work_evidence_date": "",
+    "open_to_work_source_url": "https://vn.linkedin.com/in/nguyen-the-anh-b9b0b460",
+    "logistics_forwarding_experience": "Sales Director; tốt nghiệp ĐH Bách khoa Hà Nội. Hồ sơ được Google trả về cho truy vấn Sales Director + radar/ATM/quản lý bay tại Hà Nội",
+    "linkedin_url": "https://vn.linkedin.com/in/nguyen-the-anh-b9b0b460",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 55,
+    "missing_or_unverified_requirements": [
+      "Chưa xác minh ngành của VIET UY JSC và kinh nghiệm thiết bị hàng không",
+      "Ngày tín hiệu không rõ"
+    ],
+    "all_source_urls": [
+      "https://vn.linkedin.com/in/nguyen-the-anh-b9b0b460"
+    ],
+    "last_verified_at": "2026-10-09T14:45:00+07:00"
   }
 ]

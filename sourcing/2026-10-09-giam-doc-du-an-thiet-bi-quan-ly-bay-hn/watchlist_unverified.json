@@ -1,5 +1,55 @@
 [
   {
+    "candidate_id": "QLB-D01",
+    "full_name": "Raúl Hernández Verjillo",
+    "current_or_latest_title": "Managing Director Vietnam/South Korea",
+    "current_or_latest_company": "Indra (hãng thiết bị ATM/radar lớn)",
+    "location": "Hanoi Capital Region",
+    "linkedin_url": "https://vn.linkedin.com/in/raul-hernandez-verjillo/en",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "[Cấp Director] Defense | Business Development Director | Country Manager APAC – đúng ngành thiết bị quản lý bay; người nước ngoài, có thể vượt mức ngân sách"
+  },
+  {
+    "candidate_id": "QLB-D02",
+    "full_name": "Tuan Tran Duc",
+    "current_or_latest_title": "Business Development Director – Vietnam Gov & Defense",
+    "current_or_latest_company": "(chưa rõ)",
+    "location": "Hanoi Capital Region",
+    "linkedin_url": "https://vn.linkedin.com/in/tuan-tran-duc-67583b26",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "[Cấp Director] BD Director cho khách hàng Chính phủ & Quốc phòng; chuyên gia đo lường, quang điện tử"
+  },
+  {
+    "candidate_id": "QLB-D03",
+    "full_name": "Lucie Nguyen",
+    "current_or_latest_title": "Regional Sales Director",
+    "current_or_latest_company": "Global Airtech",
+    "location": "Vietnam",
+    "linkedin_url": "https://vn.linkedin.com/in/lucienguyen1610",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "[Cấp Director] Nguyên Director Group Commercial APAC – HAECO (12/2023); Corporate Sales Manager Lufthansa – ngành hàng không"
+  },
+  {
+    "candidate_id": "QLB-D04",
+    "full_name": "BIEN Vu ngoc",
+    "current_or_latest_title": "Director of Business Development",
+    "current_or_latest_company": "Thales Cyber and Digital",
+    "location": "Hanoi",
+    "linkedin_url": "https://vn.linkedin.com/in/vungocbien",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "[Cấp Director] Country Leadership Executive; BD Director Telecom, Banking & Technology tại Thales (không phải mảng ATM)"
+  },
+  {
+    "candidate_id": "QLB-D05",
+    "full_name": "Trac Van Ky",
+    "current_or_latest_title": "Vice Director, Airborne Radar Center",
+    "current_or_latest_company": "Viettel Aerospace Institute",
+    "location": "Chưa xác minh",
+    "linkedin_url": "https://vn.linkedin.com/in/trac-van-ky-976902105",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "[Cấp Director] Phó giám đốc trung tâm radar – chuyên môn kỹ thuật sâu, chưa thấy kinh nghiệm bán hàng"
+  },
+  {
     "candidate_id": "QLB-W01",
     "full_name": "Bui Ngoc Toan",
     "current_or_latest_title": "Regional Sales Manager SEA",
@@ -7,7 +57,17 @@
     "location": "Hanoi",
     "linkedin_url": "https://www.linkedin.com/in/bui-ngoc-toan-589053162",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "Nguyên International BD Manager / Bids & Project Manager tại đối tác công nghiệp chủ chốt của Thales (Aviation – Aerospace – Security) 2020–2024 – sát JD nhất"
+    "snippet_evidence": "[Cấp Manager – tham khảo] Nguyên International BD Manager / Bids & Project Manager tại đối tác công nghiệp chủ chốt của Thales (Aviation – Aerospace – Security) 2020–2024 – sát JD nhất"
+  },
+  {
+    "candidate_id": "QLB-W08",
+    "full_name": "Quoc Tuan Nguyen",
+    "current_or_latest_title": "Key Account Manager",
+    "current_or_latest_company": "Thales",
+    "location": "Hanoi Capital Region",
+    "linkedin_url": "https://vn.linkedin.com/in/quoc-tuan-nguyen-71508aa1",
+    "open_to_work_status": "unverified",
+    "snippet_evidence": "[Cấp Manager – tham khảo] 15+ năm ngành hàng không, KAM tại Thales (hãng thiết bị ATM hàng đầu) – rất sát chuyên môn"
   },
   {
     "candidate_id": "QLB-W02",
@@ -17,7 +77,7 @@
     "location": "Vietnam",
     "linkedin_url": "https://www.linkedin.com/in/cuong-tran-1a282375",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "Deputy Head of BD Aviation Products & Maintenance JSC; Sales Team Lead VAECO (2019–2023)"
+    "snippet_evidence": "[Cấp Manager – tham khảo] Deputy Head of BD Aviation Products & Maintenance JSC; Sales Team Lead VAECO (2019–2023)"
   },
   {
     "candidate_id": "QLB-W03",
@@ -27,7 +87,7 @@
     "location": "Hanoi",
     "linkedin_url": "https://vn.linkedin.com/in/khanhnamvu",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "Bán giải pháp công nghệ cho sân bay, hãng bay"
+    "snippet_evidence": "[Cấp Manager – tham khảo] Bán giải pháp công nghệ cho sân bay, hãng bay"
   },
   {
     "candidate_id": "QLB-W04",
@@ -37,7 +97,7 @@
     "location": "Hanoi",
     "linkedin_url": "https://www.linkedin.com/in/hai-bui-154523172",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "Phát triển kinh doanh kỹ thuật hàng không từ 2013"
+    "snippet_evidence": "[Cấp Manager – tham khảo] Phát triển kinh doanh kỹ thuật hàng không từ 2013"
   },
   {
     "candidate_id": "QLB-W05",
@@ -47,7 +107,7 @@
     "location": "Hanoi",
     "linkedin_url": "https://www.linkedin.com/in/khadhraoui-ahmed",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "Systems interface & integration manager (Dorsch/DC Asia, dự án sân bay); nguyên Phó phòng khai thác sân bay OACA Tunisia"
+    "snippet_evidence": "[Cấp Manager – tham khảo] Systems interface & integration manager (Dorsch/DC Asia, dự án sân bay); nguyên Phó phòng khai thác sân bay OACA Tunisia"
   },
   {
     "candidate_id": "QLB-W06",
@@ -57,7 +117,7 @@
     "location": "Hanoi Capital Region",
     "linkedin_url": "https://www.linkedin.com/in/mark-nguyen-corepractice",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "18 năm Aviation Specialist tại ACV (2005–2023)"
+    "snippet_evidence": "[Cấp Manager – tham khảo] 18 năm Aviation Specialist tại ACV (2005–2023)"
   },
   {
     "candidate_id": "QLB-W07",
@@ -67,6 +127,6 @@
     "location": "Chưa xác minh",
     "linkedin_url": "https://vn.linkedin.com/in/loc-trinh-24177097",
     "open_to_work_status": "unverified",
-    "snippet_evidence": "Radar Engineer VATM 1997–2005, Senior System Engineer từ 2006 – chuyên môn thiết bị quản lý bay sâu"
+    "snippet_evidence": "[Cấp Manager – tham khảo] Radar Engineer VATM 1997–2005, Senior System Engineer từ 2006 – chuyên môn thiết bị quản lý bay sâu"
   }
 ]
