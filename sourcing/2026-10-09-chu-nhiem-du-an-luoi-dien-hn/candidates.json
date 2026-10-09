@@ -1,0 +1,51 @@
+[
+  {
+    "candidate_id": "LD-001",
+    "full_name": "Bac Van Nguyen",
+    "current_or_latest_title": "Sales Account Manager",
+    "current_or_latest_company": "Thanh Thien Technology JSC",
+    "location": "Hanoi Capital Region",
+    "open_to_work_status": "confirmed",
+    "open_to_work_evidence": "openToWork=true trên hồ sơ LinkedIn (harvestapi Full)",
+    "open_to_work_evidence_date": "2026-10-09 (thời điểm quét)",
+    "open_to_work_source_url": "https://www.linkedin.com/in/bac-van-nguyen-a95621157",
+    "logistics_forwarding_experience": "Bán thiết bị công nghiệp/năng lượng: Technical Sales Engineer Cummins DKSH (máy phát điện, 04/2023–09/2025); Sales Manager Viteq Vietnam (2020–2023); EagleBurgmann",
+    "linkedin_url": "https://www.linkedin.com/in/bac-van-nguyen-a95621157",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 58,
+    "missing_or_unverified_requirements": [
+      "Chưa thấy kinh nghiệm trực tiếp về đường dây/trạm biến áp/thiết bị đóng cắt",
+      "Chưa rõ chuyên ngành đại học"
+    ],
+    "all_source_urls": [
+      "https://www.linkedin.com/in/bac-van-nguyen-a95621157"
+    ],
+    "last_verified_at": "2026-10-09T14:30:00+07:00"
+  },
+  {
+    "candidate_id": "LD-002",
+    "full_name": "Dang Nghia",
+    "current_or_latest_title": "Electrical Engineer",
+    "current_or_latest_company": "(chưa rõ công ty hiện tại)",
+    "location": "Chưa xác minh (tốt nghiệp ĐH Bách khoa Hà Nội)",
+    "open_to_work_status": "probable",
+    "open_to_work_evidence": "Google snippet hồ sơ: \"Open to work\"",
+    "open_to_work_evidence_date": "",
+    "open_to_work_source_url": "https://vn.linkedin.com/in/dang-nghia-31359444",
+    "logistics_forwarding_experience": "Kỹ sư điện; Substation Control System – EVN/CPPMB (2007–2008); thử nghiệm, nghiệm thu, đóng điện",
+    "linkedin_url": "https://vn.linkedin.com/in/dang-nghia-31359444",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 50,
+    "missing_or_unverified_requirements": [
+      "Thiên về kỹ thuật, chưa thấy kinh nghiệm kinh doanh/đấu thầu",
+      "Ngày tín hiệu không rõ",
+      "Địa điểm hiện tại chưa xác minh"
+    ],
+    "all_source_urls": [
+      "https://vn.linkedin.com/in/dang-nghia-31359444"
+    ],
+    "last_verified_at": "2026-10-09T14:30:00+07:00"
+  }
+]

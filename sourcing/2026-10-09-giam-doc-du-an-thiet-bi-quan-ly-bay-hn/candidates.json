@@ -1,0 +1,75 @@
+[
+  {
+    "candidate_id": "QLB-001",
+    "full_name": "Toan Vu Manh",
+    "current_or_latest_title": "Managing Director; Account Manager (aviation)",
+    "current_or_latest_company": "M8group; TAESCO",
+    "location": "Hanoi Capital Region",
+    "open_to_work_status": "confirmed",
+    "open_to_work_evidence": "openToWork=true trên hồ sơ LinkedIn (harvestapi Full)",
+    "open_to_work_evidence_date": "2026-10-09 (thời điểm quét)",
+    "open_to_work_source_url": "https://www.linkedin.com/in/toan-vu-manh-31182660",
+    "logistics_forwarding_experience": "Technical Safety Quality General Manager Bamboo Airways (12/2018–03/2024); Account Manager TAESCO – ngành hàng không (2024–nay); VP Sales & Marketing SIB Group (2024)",
+    "linkedin_url": "https://www.linkedin.com/in/toan-vu-manh-31182660",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 68,
+    "missing_or_unverified_requirements": [
+      "Kinh nghiệm hàng không thiên về hãng bay/bảo dưỡng, chưa thấy thiết bị CNS/ATM",
+      "Chưa thấy kinh nghiệm làm việc với VATM"
+    ],
+    "all_source_urls": [
+      "https://www.linkedin.com/in/toan-vu-manh-31182660"
+    ],
+    "last_verified_at": "2026-10-09T14:30:00+07:00"
+  },
+  {
+    "candidate_id": "QLB-002",
+    "full_name": "Duc M. Ngo",
+    "current_or_latest_title": "Business Development (Project Manager)",
+    "current_or_latest_company": "ASIM Group",
+    "location": "Hanoi Capital Region",
+    "open_to_work_status": "confirmed",
+    "open_to_work_evidence": "openToWork=true trên hồ sơ LinkedIn (harvestapi Full)",
+    "open_to_work_evidence_date": "2026-10-09 (thời điểm quét)",
+    "open_to_work_source_url": "https://www.linkedin.com/in/duc-minh-ngo-a554a71a0",
+    "logistics_forwarding_experience": "Director – Trưởng phòng Kinh doanh, Công ty Xây lắp Bưu điện PCC (2017–2022); KAM B2B Samsung Vina; VNPT-VDC – bán dự án hạ tầng viễn thông",
+    "linkedin_url": "https://www.linkedin.com/in/duc-minh-ngo-a554a71a0",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 62,
+    "missing_or_unverified_requirements": [
+      "Chưa có kinh nghiệm ngành hàng không / quản lý bay",
+      "Cần kiểm tra tiếng Anh"
+    ],
+    "all_source_urls": [
+      "https://www.linkedin.com/in/duc-minh-ngo-a554a71a0"
+    ],
+    "last_verified_at": "2026-10-09T14:30:00+07:00"
+  },
+  {
+    "candidate_id": "QLB-003",
+    "full_name": "Xuan Truong Nguyen",
+    "current_or_latest_title": "Aviation Professional",
+    "current_or_latest_company": "VATM – Trung tâm Huấn luyện Quản lý bay",
+    "location": "Chưa xác minh",
+    "open_to_work_status": "confirmed",
+    "open_to_work_evidence": "Headline LinkedIn: \"Aviation Professional Seeking New Opportunities\"",
+    "open_to_work_evidence_date": "",
+    "open_to_work_source_url": "https://vn.linkedin.com/in/xuan-truong-nguyen-8998ab186",
+    "logistics_forwarding_experience": "Làm việc tại Tổng công ty Quản lý bay Việt Nam (VATM) – hiểu khách hàng chính trong JD",
+    "linkedin_url": "https://vn.linkedin.com/in/xuan-truong-nguyen-8998ab186",
+    "public_email": "",
+    "public_phone": "",
+    "fit_score": 52,
+    "missing_or_unverified_requirements": [
+      "Chưa thấy kinh nghiệm kinh doanh/đấu thầu",
+      "Chức danh và số năm kinh nghiệm chưa rõ",
+      "Ngày tín hiệu không rõ"
+    ],
+    "all_source_urls": [
+      "https://vn.linkedin.com/in/xuan-truong-nguyen-8998ab186"
+    ],
+    "last_verified_at": "2026-10-09T14:30:00+07:00"
+  }
+]
